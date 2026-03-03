@@ -86,15 +86,17 @@ export default function ProjectCard({ project }: { project: Project }) {
           ))}
         </div>
 
-        <div className="pt-4">
-          <a
-            href={project.link}
-            className="inline-flex items-center gap-3 px-8 py-4 bg-[#E47A3F] hover:bg-[#E47A3F]/90 text-[#F4F4F2] font-semibold rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-[#E47A3F]/30 hover:scale-105 whitespace-nowrap cursor-pointer"
-          >
-            사이트 방문
-            <i className="ri-arrow-right-up-line text-xl w-5 h-5 flex items-center justify-center"></i>
-          </a>
-        </div>
+        {project.link !== '#' && (
+          <div className="pt-4">
+            <a
+              href={project.link}
+              className="inline-flex items-center gap-3 px-8 py-4 bg-[#E47A3F] hover:bg-[#E47A3F]/90 text-[#F4F4F2] font-semibold rounded-full transition-all duration-300 hover:shadow-xl hover:shadow-[#E47A3F]/30 hover:scale-105 whitespace-nowrap cursor-pointer"
+            >
+              사이트 방문
+              <i className="ri-arrow-right-up-line text-xl w-5 h-5 flex items-center justify-center"></i>
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

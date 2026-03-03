@@ -7,7 +7,7 @@ const events = [
     date: '2026년 3월 10일',
     time: '19:00 - 21:00',
     title: '프로젝트 발표회',
-    location: '대학교 본관 A동',
+    location: 'NTH 412',
   },
 ];
 
@@ -33,7 +33,7 @@ export default function Timeline() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-32 px-6 relative">
+    <section ref={sectionRef} className="py-16 px-6 relative">
       <div className="absolute inset-0 bg-gradient-to-b from-[#1C221B] via-[#2A3D2F]/30 to-[#1C221B]" />
 
       <div className="relative z-10 max-w-4xl mx-auto">

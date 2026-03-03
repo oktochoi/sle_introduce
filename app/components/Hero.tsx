@@ -47,9 +47,6 @@ export default function Hero() {
           슬기짜기 동아리 디지털 전시
         </p>
 
-        <p className="text-[#F4F4F2]/50 text-sm tracking-widest uppercase mb-16">
-          우리가 만든 다섯 개의 프로젝트
-        </p>
 
         <div className="flex justify-center">
           <button 

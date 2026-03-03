@@ -43,33 +43,33 @@ export default function FinalCTA() {
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-16'
         }`}
       >
-        <div className="mb-8">
-          <span className="text-[#E47A3F] text-sm tracking-[0.3em] uppercase font-semibold">
-            함께하는 여정
-          </span>
-        </div>
+        <span className="text-[#E47A3F] text-xs tracking-[0.25em] uppercase font-semibold">
+          함께하는 여정
+        </span>
 
-        <h2 className="text-[clamp(2rem,7vw,5.5rem)] font-black leading-[1] mb-12 text-[#F4F4F2] tracking-tight">
-          우리가 함께<br />만들어낸 것들
+        <h2 className="text-[clamp(2rem,6vw,5rem)] font-bold leading-[1.15] mt-6 mb-8 text-[#F4F4F2] tracking-tight">
+          먼저 걸어본 우리가
+          <br />
+          남기는 이야기
         </h2>
 
-        <p className="text-[#F4F4F2]/70 text-xl md:text-2xl leading-relaxed mb-16 max-w-3xl mx-auto">
-          한 줄 한 줄의 코드, 모든 디자인 결정, 밤새운 디버깅 세션—
-          이 모든 것이 이 순간을 위한 것이었습니다. 혁신, 협업, 
-          그리고 집단 창의성의 힘을 함께 축하해 주세요.
+        <p className="text-[#F4F4F2]/60 text-lg md:text-xl leading-relaxed max-w-2xl mx-auto mb-14">
+          전공이 막막한 새내기에게,
+          <br />
+          이 길이 조금은 선명해지길 바랍니다.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <a
-            href="#"
+            href="https://slegizzagi.vercel.app/"
             className="inline-flex items-center gap-3 px-10 py-5 bg-[#E47A3F] hover:bg-[#E47A3F]/90 text-[#F4F4F2] text-lg font-semibold rounded-full transition-all duration-300 hover:shadow-2xl hover:shadow-[#E47A3F]/40 hover:scale-105 whitespace-nowrap cursor-pointer"
           >
-            전시 관람하기
+            슬기짜기란?
             <i className="ri-arrow-right-line text-xl w-5 h-5 flex items-center justify-center"></i>
           </a>
 
           <a
-            href="#"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdlDESVuVbGKyD5_qKnBzhK8FgwcuNAkSsoUgstiv62Qostpg/viewform?usp=dialog"
             className="inline-flex items-center gap-3 px-10 py-5 bg-[#F4F4F2]/10 backdrop-blur-xl hover:bg-[#F4F4F2]/20 border border-[#F4F4F2]/30 text-[#F4F4F2] text-lg font-semibold rounded-full transition-all duration-300 hover:shadow-xl hover:scale-105 whitespace-nowrap cursor-pointer"
           >
             동아리 가입하기
@@ -86,7 +86,7 @@ export default function FinalCTA() {
           
           <div className="flex items-center gap-6">
             <a href="https://readdy.ai/?ref=logo" target="_blank" rel="noopener noreferrer" className="hover:text-[#E47A3F] transition-colors cursor-pointer whitespace-nowrap">
-              Made with Readdy
+              Made with Okto
             </a>
             <a href="#" className="hover:text-[#E47A3F] transition-colors cursor-pointer whitespace-nowrap">
               문의하기
