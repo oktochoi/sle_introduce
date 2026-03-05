@@ -45,7 +45,7 @@ export default function Intro() {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-[#F4F4F2] mb-8 leading-tight">
-            함께 배우고, 직접 만들다
+            Solve, Learn, Evolve
           </h2>
           
           <div className="space-y-6 text-[#F4F4F2]/80 text-lg leading-relaxed">
