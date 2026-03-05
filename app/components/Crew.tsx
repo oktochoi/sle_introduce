@@ -8,7 +8,6 @@ const members = [
   { name: '신태현', role: 'TICKETING WAR: Operational Console' },
   { name: '신혜원', role: '도약의 숲' },
   { name: '정봉혁', role: 'Not For You' },
-  { name: '이강현', role: 'Flexible VideoWall' },
   { name: '조도현', role: '추후공개' },
   { name: '이승주', role: '추후공개' },
 ];

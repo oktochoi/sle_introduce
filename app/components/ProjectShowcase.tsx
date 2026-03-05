@@ -46,15 +46,6 @@ const projects = [
   },
   {
     id: 5,
-    name: 'Flexible VideoWall',
-    concept: '실시간 멀티미디어 스트리밍 및 동기화 플랫폼',
-    description: 'Python 기반 서버와 FFmpeg를 활용한 미디어 처리 시스템을 구축하고, Kotlin 기반 안드로이드 클라이언트와 C++ 네이티브 라이브러리를 통해 고성능 스트리밍 환경을 구현했습니다. WebSocket 및 UDP 멀티캐스팅 통신과 NTP/SNTP 시간 동기화를 적용하여 다중 디바이스 간 정밀한 실시간 싱크를 지원합니다.',    tags: ['Python', 'FFmpeg', 'Kotlin', 'C++'],
-    image: '/5.png',
-    link: '#',
-    align: 'left'
-  },
-  {
-    id: 6,
     name: '추후공개',
     concept: '준비 중입니다',
     description: '곧 공개될 예정입니다.',
@@ -64,7 +55,7 @@ const projects = [
     align: 'right'
   },
   {
-    id: 7,
+    id: 6,
     name: '추후공개',
     concept: '준비 중입니다',
     description: '곧 공개될 예정입니다.',
